@@ -63,3 +63,6 @@ certs/
 
 # Docker artifacts
 docker-compose.override.yml
+
+# Ignore MongoDB local data
+data/db/
