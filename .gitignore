@@ -1,0 +1,65 @@
+# Node Modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# dotenv environment files
+.env
+.env.* 
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Build output
+dist/
+build/
+coverage/
+
+# Test coverage reports
+coverage/
+
+# PM2 logs
+pids
+*.pid
+*.seed
+
+# Debugger settings
+node-inspector.json
+
+# Mac system files
+*.DS_Store
+
+# Temporary files
+tmp/
+temp/
+
+# MongoDB database files (if stored locally for testing)
+*.local
+*.mongodb
+*.db
+
+# Private keys or sensitive files
+*.pem
+*.key
+certs/
+
+# Docker artifacts
+docker-compose.override.yml
